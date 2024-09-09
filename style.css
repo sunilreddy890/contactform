@@ -1,0 +1,60 @@
+body{
+  margin: 0;
+  padding: 0;
+
+}
+.container{
+  background: linear-gradient(to right,#348f50,#5684d3);
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-form{
+  background-color: rgba(255, 255, 255, 0.814);
+  padding: 20px;
+ border-radius: 10px;
+ box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+.contact-form  h2{
+  text-align: center;
+  color: #333;
+  font-family:'be vietnam pro',sans-serif;
+  font-family: 'nunito',sans-serif;
+}
+.form-group{
+margin-bottom: 20px;
+
+
+
+}
+
+label{
+  display: block;
+  margin-bottom: 8px;
+}
+  input,textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid#ccc;
+    border: 10px;
+    box-sizing: border-box;
+  }
+button{
+  background-color:rgb(15, 118, 182);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+button:hover{
+  background-color: green;
+  transition-duration: 0.4s;
+}
+
+
+
+
